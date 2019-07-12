@@ -6,7 +6,7 @@ using UnityEngine;
 // verifica si el personaje esta chocando contra el suelo, para detectar el tipo de colision
 public class CheckGround : MonoBehaviour {
 
-	private VitaController vita;
+	private VitaController vita; //para asignar su objeto padre
 	private Rigidbody2D rb2d;
 
 	// Use this for initialization
